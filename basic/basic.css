@@ -1,6 +1,6 @@
 p{
-    background-color: rgb(57, 165, 212);
-    color: rgb(8, 8, 8);
+    background-color: rgb(84, 196, 241);
+    color: rgb(234, 17, 17);
     font-size: 25px;
 }
 span{
@@ -12,4 +12,35 @@ div{
     background-color: rgb(142, 208, 236);
     color: rgb(68, 14, 245);
     font-size: 25px;
+}
+.Para,h1{
+    text-align: left;
+    /* text-align: right; */
+    line-height: 40px;
+    /* text-transform: capitalize; */
+    /* text-transform:lowercase; */
+    text-transform:none;
+
+}
+h1{
+    text-align: center;
+    text-decoration: red double underline;
+    /* text-decoration: line-through; */
+    /* text-decoration: overline; */
+    /* text-decoration: none */
+}
+#one{
+    font-weight: 300;
+}
+#one1{
+    font-weight: 600;
+}
+#one2{
+    font-weight: 900;
+}
+#one3{
+    font-weight: 100;
+}
+*{
+    font-family: cursive ;
 }
