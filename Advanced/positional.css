@@ -1,0 +1,39 @@
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black ;
+}
+#Box-1 {
+    background-color: red;
+    position: static;
+    /* it's a bydefault value it does not changes  */
+}
+#Box-2 {
+    background-color: yellow;
+    position: relative;
+    top: 25px;
+
+
+}
+#Box-3 {
+    background-color: brown;
+    position: sticky;
+    /* position of closet posotion ancestor
+    means (Browser window, or (html/body) tag) */
+     top: 0px;
+     /* bottom: 500px;
+     right: 250px;
+     left: 400px; */
+    
+}
+#Box-4 {
+    /* posotion related to the browswer */
+        background-color:pink;
+        position: fixed;
+        top: 250px;
+        width: 100%;
+        
+
+
+}
