@@ -1,0 +1,46 @@
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 15px;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    /* % unit are always compaire with the Parents. */
+    /* in that case its (1/3)rd of parents ie.,(box1) width.  */
+    background-color:yellow;
+    margin-left: 10%;
+    font-size: 2em; 
+    /* it means it compaired the font size of parent...
+    ie.. double of Box1...ie ===30px
+    font-size: 2em;     // double to the font size...
+    font-size: 0.5em;   // half to the font size...
+    font-size: 1em;     //equal to the font size.... 
+
+    font size chya case  madhe only parent font-size chk keli jate..
+    but in other property we consider itself property....
+    like...> (width)
+    */
+
+    width: 5em;
+    /* width is 5times the font size .
+    in above ex.. we used 2em ....means ===> ===>
+    (total font size is 10 & we used 2 em then font-size==10*20===20
+    and here we used, width =5em  means (20*5=100))
+     if font size is 20px then ==>  width =(20*5)==>100px 
+    */
+  
+
+    /* vh: 100px;
+       ( view port height = 100...  ie., full height of screen... )
+  
+       vw: 10px;
+       ( view port Width = 100...   ie., full width of screen... )
+    
+    */
+
+
+
+
+}
